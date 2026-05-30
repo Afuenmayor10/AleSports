@@ -413,8 +413,13 @@ footer{
 
     .contacto{
         flex-direction: column;
+            
     }
-
+    
+    .texto-contacto h2{
+        font-size: 35px;
+        text-align: center;
+    }
     .fila-formulario{
         flex-direction: column;
     }
