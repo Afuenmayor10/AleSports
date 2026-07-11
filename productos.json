@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Zapatillas Nike Trainer 3",
+    "description": "Máximo confort para entrenar",
+    "price": 150000,
+    "thumbnail": "img/producto1.png",
+    "categoria": "Running",
+    "stock": 15
+  },
+  {
+    "id": 2,
+    "title": "Zapatillas Adidas Originals Samba",
+    "description": "Ideal para salidas casuales",
+    "price": 120000,
+    "thumbnail": "img/producto2.png",
+    "categoria": "Casual",
+    "stock": 30
+  },
+  {
+    "id": 3,
+    "title": "Zapatillas Puma Skyrocket lite 2",
+    "description": "Ideal para entrenamiento",
+    "price": 95000,
+    "thumbnail": "img/producto3.png",
+    "categoria": "Running",
+    "stock": 25
+  },
+  {
+    "id": 4,
+    "title": "Zapatillas Jordan Zion 4 Iridicensia",
+    "description": "Maximo confort para basquet",
+    "price": 170000,
+    "thumbnail": "img/producto4.png",
+    "categoria": "Baloncesto",
+    "stock": 10
+  }
+]

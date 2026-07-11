@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Ale Sports - Carrito</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-titulo">
+        <img src="img/logo.png" alt="Logo AleSports">
+    </div>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="index.html#productos">Productos</a>
+        <a href="index.html#contacto">Contacto</a>
+    </nav>
+
+</header>
+
+
+<main class="carrito-container">
+
+    <div class="carrito-box">
+
+        <h1>🛒 Mi Carrito (<span id="cantidad-productos">0</span> productos)</h1>
+        <div id="lista-carrito"></div>
+        <div class="carrito-total">
+            <h2>Total: $<span id="total">0</span></h2>
+        </div>
+  
+        <div class="acciones-carrito">
+
+            <a class="btn-seguir" href="index.html#productos">
+                ← Seguir comprando
+            </a>
+
+            <button class="btn-comprar">
+                Finalizar compra
+            </button>
+
+            <button class="btn-vaciar" onclick="vaciarCarrito()"> 🗑️ Vaciar carrito </button>
+
+        </div>
+
+
+    </div>
+
+</main>
+
+
+
+<footer>
+
+    <p>© 2026 AleSports - Todos los derechos reservados</p>
+
+    <div class="redes">
+        <a href="#">📘</a>
+        <a href="#">📸</a>
+        <a href="#">💬</a>
+    </div>
+
+</footer>
+
+
+<script src="carrito.js"></script>
+
+</body>
+
+</html>

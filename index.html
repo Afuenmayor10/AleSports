@@ -30,9 +30,9 @@
         <nav>
 
             <a href="#">Inicio</a>
-            <a href="#">Productos</a>
-            <a href="#">Ofertas</a>
-            <a href="#">Contacto</a>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contacto</a>
+            <a href="carrito.html">🛒 Carrito (<span id="contador-carrito">0</span>)</a>
 
         </nav>
 
@@ -54,108 +54,27 @@
             </p>
 
             <button>EMPIEZA A COMPRAR AHORA</button>
-
+        <section id="productos"></section>
         </div>
 
     </section>
-
+ 
     <!-- PRODUCTOS -->
 
-    <section class="productos">
+ <section class="productos">
 
-        <h2 class="titulo-seccion">PRODUCTOS DESTACADOS</h2>
+    <h2 class="titulo-seccion">PRODUCTOS DISPONIBLES</h2>
 
-        <div class="contenedor-productos">
-
-            <!-- CARD -->
-
-            <div class="card-producto">
-
-                <img src="img/producto1.png" alt="Zapatillas Nike">
-
-                <div class="info-producto">
-
-                    <h3>Zapatillas Nike Trainer 3</h3>
-
-                    <p>Máximo confort para entrenar</p>
-
-                    <span>$ 150.000</span>
-
-                    <button>Agregar al carrito 🛒</button>
-
-                </div>
-
-            </div>
-
-            <!-- CARD -->
-
-            <div class="card-producto">
-
-                <img src="img/producto2.png" alt="Zapatillas Adidas">
-
-                <div class="info-producto">
-
-                    <h3>Zapatillas Adidas Originals Samba</h3>
-
-                    <p>Ideal para salidas casuales</p>
-
-                    <span>$ 120.000</span>
-
-                    <button>Agregar al carrito 🛒</button>
-
-                </div>
-
-            </div>
-
-       
-             <!-- CARD -->
-
-            <div class="card-producto">
-
-                <img src="img/producto3.png" alt="Zapatillas Puma">
-
-                <div class="info-producto">
-
-                    <h3>Zapatillas Puma Skyrocket lite 2</h3>
-
-                    <p>Ideal para entrenamiento</p>
-
-                    <span>$ 95.000</span>
-
-                    <button>Agregar al carrito 🛒</button>
-
-                </div>
-
-            </div>
-
-                 <!-- CARD -->
-
-            <div class="card-producto">
-
-                <img src="img/producto4.png" alt="Zapatillas Jordan">
-
-                <div class="info-producto">
-
-                    <h3>Zapatillas Jordan Zion 4 Iridicensia</h3>
-
-                    <p>Maximo confort para basquet</p>
-
-                    <span>$ 170.000</span>
-
-                    <button>Agregar al carrito 🛒</button>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
+    <div class="contenedor-productos" id="contenedor-productos">
+    
+    </div>
+ <section id="contacto"></section>
+</section>
 
     <!-- CONTACTO -->
 
     <section class="contacto">
-
+   <section id="contacto"></section>
         <div class="texto-contacto">
 
             <h2>CONTACTO</h2>
@@ -174,12 +93,20 @@
         <input 
             type="text" 
             name="nombre"
+            id="nombre"
             placeholder="Nombre" 
             required
         >
-
+        <input 
+            type="text" 
+            name="apellido"
+            id="apellido"
+            placeholder="Apellido" 
+            required
+        >
         <textarea 
             name="mensaje"
+            id="mensaje"
             placeholder="Mensaje"
             required
         ></textarea>
@@ -188,6 +115,7 @@
 
     <input 
         type="email" 
+        id="email"
         name="email"
         placeholder="Correo electrónico" 
         required
@@ -199,6 +127,22 @@
 
 </form>
 
+    <!-- MAPA GOOGLE MAPS -->
+
+<div class="mapa">
+
+    <h3>Visítanos</h3>
+
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2597.3588296482935!2d-58.490428425150085!3d-34.546481154476055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6c049b27a89%3A0xb4aff81f5c83b76b!2sDot%20Baires%20Shopping!5e1!3m2!1ses!2sar!4v1783704803242!5m2!1ses!2sar"
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>
+
+</div>
     </section>
 
     <!-- FOOTER -->
@@ -216,6 +160,8 @@
         </div>
 
     </footer>
+    
+<script src="script.js"></script>
 
 </body>
 
