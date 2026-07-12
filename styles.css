@@ -602,53 +602,53 @@ footer{
 
 /* CANTIDAD */
 
-.controles {
-
+.controles{
     display:flex;
-
     align-items:center;
-
     gap:10px;
-
+    margin-top:10px;
 }
 
 
-.controles button {
+.controles button{
 
-    width:28px;
+    width:32px;
+    height:32px;
 
-    height:28px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
     border:none;
-
     border-radius:50%;
 
     background:#050505;
-
     color:white;
 
     cursor:pointer;
 
+    font-size:20px;
+    font-weight:bold;
+    line-height:1;
+    padding:0;
 }
 
 
 
 /* ELIMINAR */
 
-.btn-eliminar {
-
-    background:#e63946;
-
-    color:white;
-
+.btn-eliminar{
+    width:32px;
+    height:32px;
     border:none;
-
-    padding:8px;
-
-    border-radius:8px;
-
+    border-radius:50%;
+    background:#e63946;
+    color:white;
     cursor:pointer;
-
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-left:8px;
 }
 
 
@@ -692,18 +692,17 @@ footer{
 
 
 .btn-seguir,
-.btn-comprar {
+.btn-comprar,
+.btn-vaciar {
 
     flex:1;
-
     padding:14px;
-
     border-radius:30px;
-
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
     text-align:center;
-
+    cursor: pointer;
     text-decoration:none;
-
     font-weight:600;
 
 }
@@ -712,22 +711,23 @@ footer{
 .btn-seguir {
 
     background:#050505;
-
     color:white;
-
+    border:none;
 }
 
 
 .btn-comprar {
 
     background:#6cc221;
-
     color:white;
-
     border:none;
 
 }
 
+.btn-vaciar:hover{
+    background:#b71c1c;
+     border:none;
+}
 
 
 /* SCROLL */
@@ -798,8 +798,4 @@ footer{
     cursor:pointer;
     font-size:16px;
     transition:0.3s;
-}
-
-.btn-vaciar:hover{
-    background:#b71c1c;
 }

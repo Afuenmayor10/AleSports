@@ -34,14 +34,16 @@ function mostrarCarrito(){
 
                 <button onclick="sumar(${producto.id})">+</button>
 
+                <button class="btn-eliminar" onclick="eliminar(${producto.id})">
+            🗑️
+        </button>
+
             </div>
 
         </div>
 
 
-        <button class="btn-eliminar" onclick="eliminar(${producto.id})">
-            🗑️
-        </button>
+        
 
 
     </div>
